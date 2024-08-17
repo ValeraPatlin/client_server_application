@@ -1,0 +1,140 @@
+*
+{
+    /*font-size: 15px;
+    line-height: 15px; */
+    color: #000000;
+    /*background-color: #cfcfcf;*/
+    /*border: 2px solid #055f55;*/
+    /*text-transform: uppercase;*/
+    scrollbar-color: red;
+}
+
+QLabel 
+{
+    font-size: 14px;
+    line-height: 14px;
+}
+
+QGroupBox 
+{
+    font-size: 14px;
+    line-height: 14px;
+    background-color: #c7c7c7;
+}
+
+QPushButton 
+{
+    font-size: 16px;
+    line-height: 16px;
+}
+QPushButton:hover
+{
+    background-color: #56fdfd;
+    color: #000000;
+}
+
+QPushButton:disabled
+{
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+}
+/*
+QPushButton#pb_anonymous,
+QPushButton#pb_chatPrivatemaesage,
+QPushButton#pb_saveIpAdressAndPort,
+QPushButton#pb_cancel_ipAdressAndPort,
+QPushButton#pb_saveInfoDateDebug,
+QPushButton#pb_canselDataInfoDebug,
+QPushButton#pb_saveLogFile,
+QPushButton#pb_cancelLogFile,
+QPushButton#pb_acceptOne,
+QPushButton#pb_formOneRejoction,
+QPushButton#pb_acceptTwo,
+QPushButton#pb_formTwoRejoction,
+QPushButton#pb_acceptThree,
+QPushButton#pb_formThreeRejoction,
+QPushButton#pb_break,
+QPushButton#pb_saveFileChat,
+QPushButton#pb_cutChat,
+QPushButton#pb_clearChat
+{
+    background-color: #a1b3c2;
+}*/
+
+
+/* кнопка играть */
+QPushButton#pb_gameStartKNB
+{
+    font-size: 55px;
+    line-height: 55px;
+    background-color: #3d3d3d;
+    color: #5ffff2;
+}
+QPushButton#pb_gameStartKNB:hover
+{
+    background-color: #fff015;
+    color: #000000;
+}
+
+/* кнопка закрыть */
+QPushButton#pb_close
+{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+    background-color: #3d3d3d;
+    color: #ff0000;
+}
+QPushButton#pb_close:hover
+{
+    background-color: #fff015;
+    color: #000000;
+}
+
+/* кнопка авторизоваться */
+QPushButton#pb_log_in
+{
+    font-size: 20px;
+    line-height: 20px;
+    background-color: #3d3d3d;
+    color: #5ffff2
+}
+QPushButton#pb_log_in:hover
+{
+    background-color: #fff015;
+    color: #000000;
+}
+
+QPushButton#pbDeleteMessages, 
+QPushButton#pbLoadMessages 
+{
+    font-size: 14px;
+    line-height: 12px;
+}
+
+QToolBox
+{
+    jitify-content: flex-start;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 12px;
+    /*border: none;*/
+    /*background-color: transparent;*/
+}
+
+QToolBox::tab
+{
+    jutify-content: flex-start;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    border-top: 1px solid #000000;
+    color: #000000;
+}
+
+*
+{
+    font-family: 'Noto_Sans',
+    sans-serif;
+}

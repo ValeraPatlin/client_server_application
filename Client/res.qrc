@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>gl4.png</file>
+        <file>gl5.png</file>
+        <file>icon/kn.png</file>
+    </qresource>
+    <qresource prefix="/style">
+        <file>Style/Style.css</file>
+    </qresource>
+</RCC>
